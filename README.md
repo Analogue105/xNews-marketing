@@ -38,4 +38,16 @@ npm run preview
 
 ## Deploy
 
-The project currently uses `@sveltejs/adapter-auto`. For a specific host, switch to the matching SvelteKit adapter.
+The project is configured for Vercel with `@sveltejs/adapter-vercel`.
+
+### Vercel deployment
+
+1. Import `Analogue105/xNews-marketing` into Vercel.
+2. Keep build settings as defaults for SvelteKit.
+3. Deploy from `main`.
+
+For CLI deploys, install Vercel CLI and run:
+
+```sh
+vercel
+```
