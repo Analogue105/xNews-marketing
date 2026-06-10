@@ -1,14 +1,32 @@
 <section class="marketing-card p-6 sm:p-8">
 	<span class="section-kicker">Feature grid</span>
-	<h2 class="section-title">Everything your team needs to run returns with confidence.</h2>
+	<h2 class="section-title">Real platform capabilities used in day-to-day operations.</h2>
 	<div class="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
 		{#each [
-			{ title: 'Issue Reconciliation', text: 'Compare supply, sales, credits, and returns in one view.' },
-			{ title: 'Mismatch Detection', text: 'Surface inventory differences before they hit billing.' },
-			{ title: 'Return Batch Control', text: 'Prepare, review, and finalise batches without guesswork.' },
-			{ title: 'Subagent Visibility', text: 'Track pending and finalised subagent quantities by issue.' },
-			{ title: 'Operational Audit Trail', text: 'Understand movement context when numbers look wrong.' },
-			{ title: 'Exception Workflow', text: 'Route anomalies into actionable issue queues.' }
+			{
+				title: 'Magazine Operations',
+				text: 'Dashboard, lookup, shortages, arrivals, returns capture, and send returns workflows in one module.'
+			},
+			{
+				title: 'Newspapers Workflow',
+				text: 'Manage newspaper arrivals, returns, and totals with route-level operational visibility.'
+			},
+			{
+				title: 'Subagent Management',
+				text: 'Run standing orders, extras, returns, and statements with clear subagent quantity tracking.'
+			},
+			{
+				title: 'Inventory Controls',
+				text: 'Supplier invoices, suppliers, auto-order, consignment, and departments/categories management.'
+			},
+			{
+				title: 'Customers and Accounts',
+				text: 'Customer records, statements, and payments workflows that support ongoing account operations.'
+			},
+			{
+				title: 'Labels, Issues, and xChangeIT',
+				text: 'Generate labels, surface operational issues, and manage xChangeIT transfer-related processing.'
+			}
 		] as feature (feature.title)}
 			<article class="rounded-xl border border-gray-200 bg-white p-4">
 				<h3 class="text-lg font-semibold">{feature.title}</h3>
