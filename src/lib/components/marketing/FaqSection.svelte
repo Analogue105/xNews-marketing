@@ -1,20 +1,20 @@
 <script lang="ts">
 	const items = [
 		{
-			q: 'Can xNews work with existing issue and barcode workflows?',
-			a: 'Yes. xNews is designed around issue-level records and barcode-driven operations already common in newsagency systems.'
+			q: 'Which parts of a newsagency workflow are covered?',
+			a: 'xNews includes magazines, newspapers, subagents, customers, inventory, labels, planning, settings, and issue tracking in one platform.'
 		},
 		{
-			q: 'Does it help find reconciliation gaps before returns are sent?',
-			a: 'Absolutely. Reconciliation views are built to expose mismatches before finalisation so your team can act early.'
+			q: 'Can we reconcile before finalising returns?',
+			a: 'Yes. Teams can work through lookup, shortages, returns, send returns, and issue queues before finalising return activity.'
 		},
 		{
-			q: 'Is onboarding disruptive for counter staff?',
-			a: 'Most teams are operational in days, not months, with practical workflows and guided rollout support.'
+			q: 'Does xNews support subagent and customer account workflows?',
+			a: 'Yes. Subagent orders, extras, returns, and statements are included, along with customer statements and payment processing workflows.'
 		},
 		{
-			q: 'Do you support multi-site operators?',
-			a: 'Yes. xNews can support operators managing several stores and requiring consistent controls across sites.'
+			q: 'How does it handle day-to-day operational exceptions?',
+			a: 'The dedicated Issues area and related workflow pages let teams track mismatches, assign follow-up, and resolve exceptions before billing periods close.'
 		}
 	];
 

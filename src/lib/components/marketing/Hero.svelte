@@ -3,10 +3,10 @@
 		<div>
 			<span class="section-kicker">Trading as a105.link</span>
 			<h1 class="section-title text-[2.1rem] sm:text-[3rem]">
-				xNews gives your team control of every issue, return, and margin decision.
+				xNews connects magazines, newspapers, subagents, and inventory in one daily operating flow.
 			</h1>
 			<p class="muted mt-4 max-w-xl text-base sm:text-lg">
-				Purpose-built for Australian newsagency operations that need fast returns handling, cleaner reconciliation, and fewer surprise stock gaps.
+				Purpose-built for Australian newsagency teams handling arrivals, returns, statements, and reconciliation with issue-level accuracy.
 			</p>
 			<div class="mt-6 flex flex-wrap gap-3">
 				<a href="#final-cta" class="btn preset-filled-primary-500">Book a Live Demo</a>
@@ -16,16 +16,16 @@
 
 		<div class="grid gap-3">
 			<div class="rounded-xl border border-emerald-100 bg-emerald-50 p-4">
-				<p class="text-xs uppercase tracking-wide text-emerald-700">Returns Prepared</p>
-				<p class="mt-1 text-2xl font-bold text-emerald-900">95% Faster</p>
+				<p class="text-xs uppercase tracking-wide text-emerald-700">Magazine and Newspaper Returns</p>
+				<p class="mt-1 text-2xl font-bold text-emerald-900">Single Operational Workflow</p>
 			</div>
 			<div class="rounded-xl border border-amber-100 bg-amber-50 p-4">
-				<p class="text-xs uppercase tracking-wide text-amber-700">Reconciliation Clarity</p>
-				<p class="mt-1 text-2xl font-bold text-amber-900">Issue-Level Drilldown</p>
+				<p class="text-xs uppercase tracking-wide text-amber-700">Reconciliation and Exceptions</p>
+				<p class="mt-1 text-2xl font-bold text-amber-900">Issue, Shortage, and Issues Views</p>
 			</div>
 			<div class="rounded-xl border border-cyan-100 bg-cyan-50 p-4">
-				<p class="text-xs uppercase tracking-wide text-cyan-700">Designed For</p>
-				<p class="mt-1 text-2xl font-bold text-cyan-900">Busy Counter Teams</p>
+				<p class="text-xs uppercase tracking-wide text-cyan-700">Connected Operations</p>
+				<p class="mt-1 text-2xl font-bold text-cyan-900">Subagents, Customers, Inventory, Labels</p>
 			</div>
 		</div>
 	</div>
