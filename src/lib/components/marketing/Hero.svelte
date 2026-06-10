@@ -3,13 +3,13 @@
 		<div>
 			<span class="section-kicker">Trading as a105.link</span>
 			<h1 class="section-title text-[2.1rem] sm:text-[3rem]">
-				xNews keeps every issue, return, and dollar in plain view.
+				xNews gives your team control of every issue, return, and margin decision.
 			</h1>
 			<p class="muted mt-4 max-w-xl text-base sm:text-lg">
-				Built for newsagency teams that need fast confidence in returns, cleaner reconciliation, and fewer late-night stock surprises.
+				Purpose-built for Australian newsagency operations that need fast returns handling, cleaner reconciliation, and fewer surprise stock gaps.
 			</p>
 			<div class="mt-6 flex flex-wrap gap-3">
-				<a href="#final-cta" class="btn preset-filled-primary-500">Book a Live Walkthrough</a>
+				<a href="#final-cta" class="btn preset-filled-primary-500">Book a Live Demo</a>
 				<a href="#features" class="btn preset-outlined-surface-200-800">See Platform Features</a>
 			</div>
 		</div>

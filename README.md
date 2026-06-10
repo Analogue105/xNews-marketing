@@ -1,42 +1,41 @@
-# sv
+# xNews Marketing
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Marketing site for xNews, built by a105.link.
 
-## Creating a project
+## Stack
 
-If you're seeing this, you've probably already done this step. Congrats!
+- SvelteKit + TypeScript
+- Svelte 5 runes
+- Skeleton UI + Tailwind CSS v4
 
-```sh
-# create a new project
-npx sv create my-app
-```
-
-To recreate this project with the same configuration:
+## Local Development
 
 ```sh
-# recreate this project
-npx sv@0.16.1 create --template minimal --types ts --install npm xNews-marketing
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
+npm install
 npm run dev -- --open
 ```
 
-## Building
-
-To create a production version of your app:
+## Scripts
 
 ```sh
+npm run dev
+npm run check
 npm run build
+npm run preview
 ```
 
-You can preview the production build with `npm run preview`.
+## Project Structure
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- `src/routes/+page.svelte`: page assembly, navigation, reveal behaviour
+- `src/lib/components/marketing`: modular marketing sections
+- `src/app.css`: global theme, layout, and motion styles
+
+## Content Notes
+
+- Use Australian English spelling in all user-facing copy.
+- Keep messaging focused on returns, reconciliation, and inventory clarity.
+- Brand context: xNews is operated by a105.link.
+
+## Deploy
+
+The project currently uses `@sveltejs/adapter-auto`. For a specific host, switch to the matching SvelteKit adapter.

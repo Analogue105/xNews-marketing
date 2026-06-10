@@ -78,6 +78,14 @@
 		name="description"
 		content="xNews by a105.link helps newsagencies run tighter returns, cleaner reconciliation, and sharper inventory decisions."
 	/>
+	<meta name="robots" content="index,follow" />
+	<meta property="og:title" content="xNews by a105.link" />
+	<meta
+		property="og:description"
+		content="Run faster returns, clear reconciliation, and confident inventory decisions with xNews."
+	/>
+	<meta property="og:type" content="website" />
+	<meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
 <div class="marketing-shell">
@@ -106,11 +114,11 @@
 			<a class="btn preset-outlined-surface-200-800" href="#pricing" onclick={(event) => {
 				event.preventDefault();
 				scrollToSection('pricing');
-			}}>View Plans</a>
+			}}>View Pricing</a>
 			<a class="btn preset-filled-primary-500" href="#final-cta" onclick={(event) => {
 				event.preventDefault();
 				scrollToSection('final-cta');
-			}}>Book a Demo</a>
+			}}>Book Demo</a>
 		</div>
 
 		<button type="button" class="mobile-toggle" aria-label="Toggle navigation" onclick={() => (mobileMenuOpen = !mobileMenuOpen)}>
