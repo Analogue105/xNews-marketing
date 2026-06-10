@@ -15,7 +15,7 @@
 		{ id: 'home', label: 'Home' },
 		{ id: 'features', label: 'Features' },
 		{ id: 'workflow', label: 'Workflow' },
-		{ id: 'pricing', label: 'Pricing' },
+		{ id: 'testing', label: 'Testing' },
 		{ id: 'faq', label: 'FAQ' }
 	];
 
@@ -111,10 +111,10 @@
 		</nav>
 
 		<div class="nav-actions">
-			<a class="btn preset-outlined-surface-200-800" href="#pricing" onclick={(event) => {
+			<a class="btn preset-outlined-surface-200-800" href="#testing" onclick={(event) => {
 				event.preventDefault();
-				scrollToSection('pricing');
-			}}>View Pricing</a>
+				scrollToSection('testing');
+			}}>Testing Programme</a>
 			<a class="btn preset-filled-primary-500" href="#final-cta" onclick={(event) => {
 				event.preventDefault();
 				scrollToSection('final-cta');
@@ -161,7 +161,7 @@
 			<SavingsEstimator />
 		</section>
 
-		<section id="pricing" data-reveal-id="pricing" class:is-visible={isRevealed('pricing')}>
+		<section id="testing" data-reveal-id="testing" class:is-visible={isRevealed('testing')}>
 			<PricingTeaser />
 		</section>
 
