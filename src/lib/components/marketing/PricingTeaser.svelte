@@ -18,7 +18,7 @@
 			},
 			{
 				name: 'Release Waitlist',
-				desc: 'Join the queue to receive launch timing, onboarding windows, and pricing once final testing completes.',
+				desc: 'Join the queue to receive launch timing, onboarding windows, and access details once final testing completes.',
 				tag: 'Register interest'
 			}
 		] as tier (tier.name)}

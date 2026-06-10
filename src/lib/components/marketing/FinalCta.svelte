@@ -5,7 +5,7 @@
 		<p class="muted mt-3 max-w-2xl">Bring one current issue and we will walk through arrival, reconciliation, and return decisions in a live session.</p>
 		<div class="mt-6 flex flex-wrap gap-3">
 			<a href="mailto:hello@a105.link" class="btn preset-filled-primary-500">Book a Demo</a>
-			<a href="mailto:hello@a105.link" class="btn preset-outlined-surface-200-800">Request Pricing Details</a>
+			<a href="mailto:hello@a105.link" class="btn preset-outlined-surface-200-800">Join Final Testing Waitlist</a>
 		</div>
 	</div>
 </section>
