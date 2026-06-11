@@ -4,20 +4,20 @@
 		<div>
 			<h2 class="section-title">Built with frontline workflow pressure in mind.</h2>
 			<p class="muted mt-3 max-w-xl">
-				xNews is used where speed and accuracy both matter: receiving desk, return preparation, and reconciliation follow-up.
+				xNews has been developed from existing newsagency workflows, so newsagents work the way they already know while the software fits around the business.
 			</p>
 			<div class="mt-4 grid grid-cols-3 gap-3 text-center">
 				<div class="rounded-lg border border-gray-200 bg-white p-3">
-					<p class="text-2xl font-bold text-emerald-800">2.4h</p>
-					<p class="text-xs text-gray-600">Average weekly admin time saved</p>
+					<p class="text-2xl font-bold text-emerald-800">Workflow First</p>
+					<p class="text-xs text-gray-600">Developed around existing newsagency operations</p>
 				</div>
 				<div class="rounded-lg border border-gray-200 bg-white p-3">
-					<p class="text-2xl font-bold text-emerald-800">30%</p>
-					<p class="text-xs text-gray-600">Fewer return mismatches</p>
+					<p class="text-2xl font-bold text-emerald-800">Cloud Based</p>
+					<p class="text-xs text-gray-600">Accessible without outdated desktop-era platform limits</p>
 				</div>
 				<div class="rounded-lg border border-gray-200 bg-white p-3">
-					<p class="text-2xl font-bold text-emerald-800">Daily</p>
-					<p class="text-xs text-gray-600">Issue-level visibility for teams</p>
+					<p class="text-2xl font-bold text-emerald-800">Modern Stack</p>
+					<p class="text-xs text-gray-600">Designed for current operational needs, not legacy constraints</p>
 				</div>
 			</div>
 		</div>

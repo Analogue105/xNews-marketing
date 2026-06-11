@@ -1,6 +1,6 @@
 <section class="marketing-card p-6 sm:p-8">
 	<span class="section-kicker">How it works</span>
-	<h2 class="section-title">Three operational steps teams run every week in xNews.</h2>
+	<h2 class="section-title">Three operational steps newsagents run every week in xNews.</h2>
 	<div class="mt-6 grid gap-4 md:grid-cols-3">
 		{#each [
 			{

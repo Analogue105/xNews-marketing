@@ -6,7 +6,7 @@
 		},
 		{
 			q: 'Can we reconcile before finalising returns?',
-			a: 'Yes. Teams can work through lookup, shortages, returns, send returns, and issue queues before finalising return activity.'
+			a: 'Yes. Newsagents can work through lookup, shortages, returns, send returns, and issue queues before finalising return activity.'
 		},
 		{
 			q: 'Does xNews support subagent and customer account workflows?',
@@ -14,7 +14,7 @@
 		},
 		{
 			q: 'How does it handle day-to-day operational exceptions?',
-			a: 'The dedicated Issues area and related workflow pages let teams track mismatches, assign follow-up, and resolve exceptions before billing periods close.'
+			a: 'The dedicated Issues area and related workflow pages let newsagents track mismatches, assign follow-up, and resolve exceptions before billing periods close.'
 		}
 	];
 
@@ -27,7 +27,7 @@
 
 <section class="marketing-card p-6 sm:p-8">
 	<span class="section-kicker">FAQ</span>
-	<h2 class="section-title">Answers for operations teams.</h2>
+	<h2 class="section-title">Answers for newsagents.</h2>
 	<div class="mt-6 space-y-3">
 		{#each items as item, idx (item.q)}
 			<article class="rounded-xl border border-gray-200 bg-white">
