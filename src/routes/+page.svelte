@@ -22,6 +22,7 @@
 	let activeSection = $state('home');
 	let mobileMenuOpen = $state(false);
 	let revealed = $state<string[]>([]);
+	let revealReady = $state(false);
 
 	const isRevealed = (id: string) => revealed.includes(id);
 
@@ -38,6 +39,9 @@
 	}
 
 	onMount(() => {
+		markRevealed('home');
+		revealReady = true;
+
 		const revealObserver = new IntersectionObserver(
 			(entries) => {
 				for (const entry of entries) {
@@ -88,7 +92,7 @@
 	<meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
-<div class="marketing-shell">
+<div class="marketing-shell" class:reveal-ready={revealReady}>
 	<header class="top-nav">
 		<a class="brand" href="#home" onclick={(event) => {
 			event.preventDefault();
